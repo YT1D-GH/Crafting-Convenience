@@ -1,30 +1,175 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "EmeraldNugget",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_nugget",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/craftingconvenience/item/EmeraldNuggetItem.java",
+          "src/main/resources/assets/craftingconvenience/models/item/emerald_nugget.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "NameTag",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "name_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/craftingconvenience/recipes/name_tag.json"
+        ]
+      },
+      "path": "~/recipes/Misc"
+    },
+    {
+      "name": "IronHorseArmour",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_horse_armour",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/craftingconvenience/recipes/iron_horse_armour.json"
+        ]
+      },
+      "path": "~/recipes/Iron"
+    },
+    {
+      "name": "EmeraldNug",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_nug",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/craftingconvenience/recipes/emerald_nugget.json",
+          "src/main/resources/data/craftingconvenience/advancements/recipes/emerald_nug.json"
+        ]
+      },
+      "path": "~/recipes/Emerald"
+    },
+    {
+      "name": "GoldHorseArmour",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_horse_armour",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/craftingconvenience/recipes/gold_horse_armour.json"
+        ]
+      },
+      "path": "~/recipes/Gold"
+    },
+    {
+      "name": "DiamondHorseArmour",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_horse_armour",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/craftingconvenience/recipes/diamond_horse_armour.json"
+        ]
+      },
+      "path": "~/recipes/Diamond"
+    },
+    {
+      "name": "Bread",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bread",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/craftingconvenience/advancements/recipes/bread.json",
+          "src/main/resources/data/minecraft/recipes/bread.json"
+        ]
+      },
+      "path": "~/recipes/Misc"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "ITEMS:forge:nuggets": [
+      "Items.IRON_NUGGET",
+      "Items.GOLD_NUGGET",
+      "CUSTOM:EmeraldNugget"
+    ],
+    "ITEMS:forge:craftsnametag": [
+      "CUSTOM:EmeraldNugget",
+      "Items.IRON_NUGGET",
+      "Items.GOLD_NUGGET",
+      "Items.STRING"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.craftingconvenience.emerald_nugget": "Emerald Nugget"
+    }
   },
   "metadata": {
     "files": [
+      "src/main/java/net/mcreator/craftingconvenience/init/CraftingconvenienceModItems.java",
       "src/main/java/net/mcreator/craftingconvenience/CraftingconvenienceMod.java",
-      "src/main/resources/pack.mcmeta",
-      "src/main/resources/META-INF/mods.toml"
+      "src/main/resources/META-INF/mods.toml",
+      "src/main/resources/pack.mcmeta"
     ]
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "items",
+        "children": []
+      },
+      {
+        "name": "recipes",
+        "children": [
+          {
+            "name": "Iron",
+            "children": []
+          },
+          {
+            "name": "Gold",
+            "children": []
+          },
+          {
+            "name": "Diamond",
+            "children": []
+          },
+          {
+            "name": "Netherite",
+            "children": []
+          },
+          {
+            "name": "Emerald",
+            "children": []
+          },
+          {
+            "name": "Misc",
+            "children": []
+          }
+        ]
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "craftingconvenience",
     "modName": "CraftingConvenience",
     "version": "1.0.0",
+    "description": "The mod to make crafting convenient",
     "author": "MCreator",
     "websiteURL": "https://mcreator.net",
-    "license": "Not specified",
+    "license": "All Rights Reserved",
     "serverSideOnly": false,
     "requiredMods": [],
     "dependencies": [],
