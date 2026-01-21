@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "minecraft:enchanted_book"
+  },
+  "base": {
+    "item": "minecraft:golden_apple"
+  },
+  "addition": {
+    "item": "minecraft:gold_block"
+  },
+  "result": {
+    "item": "minecraft:enchanted_golden_apple"
+  }
+}

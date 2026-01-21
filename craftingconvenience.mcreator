@@ -93,6 +93,110 @@
         ]
       },
       "path": "~/recipes/Misc"
+    },
+    {
+      "name": "Book",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "book",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/craftingconvenience/recipes/book.json"
+        ]
+      },
+      "path": "~/recipes/Misc"
+    },
+    {
+      "name": "ChainmailHelmet",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chainmail_helmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/craftingconvenience/recipes/chainmail_helmet.json"
+        ]
+      },
+      "path": "~/recipes/Chain/armour"
+    },
+    {
+      "name": "ChainamilChestplate",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chainamil_chestplate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/craftingconvenience/recipes/chainmail_chestplate.json"
+        ]
+      },
+      "path": "~/recipes/Chain/armour"
+    },
+    {
+      "name": "ChainmailLeggings",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chainmail_leggings",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/craftingconvenience/recipes/chainmail_leggings.json"
+        ]
+      },
+      "path": "~/recipes/Chain/armour"
+    },
+    {
+      "name": "ChainmailBoots",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chainmail_boots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/craftingconvenience/recipes/chainmail_boots.json"
+        ]
+      },
+      "path": "~/recipes/Chain/armour"
+    },
+    {
+      "name": "DragonEgg",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/craftingconvenience/recipes/dragon_egg.json"
+        ]
+      },
+      "path": "~/recipes/Misc"
+    },
+    {
+      "name": "EnchantedGoldenApples",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchanted_golden_apples",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/craftingconvenience/recipes/enchanted_golden_apples.json"
+        ]
+      },
+      "path": "~/recipes/Gold"
+    },
+    {
+      "name": "EmeraldR",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/craftingconvenience/recipes/emerald.json"
+        ]
+      },
+      "path": "~/recipes/Emerald"
     }
   ],
   "variable_elements": [],
@@ -157,6 +261,15 @@
           {
             "name": "Misc",
             "children": []
+          },
+          {
+            "name": "Chain",
+            "children": [
+              {
+                "name": "armour",
+                "children": []
+              }
+            ]
           }
         ]
       }
