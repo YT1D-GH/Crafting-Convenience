@@ -13,37 +13,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Blocks.OBSIDIAN"
+        "value": ""
       },
       {
-        "value": "Blocks.OBSIDIAN"
+        "value": ""
       },
       {
-        "value": "Blocks.OBSIDIAN"
+        "value": ""
       },
       {
-        "value": "Items.DRAGON_BREATH"
+        "value": "CUSTOM:EmeraldNugget"
       },
       {
-        "value": "Items.NETHER_STAR"
+        "value": "Blocks.COBBLESTONE"
       },
       {
-        "value": "Items.DRAGON_BREATH"
+        "value": ""
       },
       {
-        "value": "Blocks.CRYING_OBSIDIAN"
+        "value": "Blocks.COBBLESTONE"
       },
       {
-        "value": "Blocks.CRYING_OBSIDIAN"
+        "value": "CUSTOM:EmeraldNugget"
       },
       {
-        "value": "Blocks.CRYING_OBSIDIAN"
+        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "Blocks.DRAGON_EGG"
+      "value": "Blocks.END_STONE"
     },
-    "name": "dragon_egg",
+    "name": "endstone",
     "namespace": "mod"
   }
 }

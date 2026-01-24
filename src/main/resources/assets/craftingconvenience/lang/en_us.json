@@ -1,3 +1,9 @@
 {
-  "item.craftingconvenience.emerald_nugget": "Emerald Nugget"
+  "item.craftingconvenience.emerald_nugget": "Emerald Nugget",
+  "item.craftingconvenience.chainmail_pickaxe": "Chainmail Pickaxe",
+  "item.craftingconvenience.chainmail_axe": "Chainmail Axe",
+  "item.craftingconvenience.chainmail_sword": "Chainmail Sword",
+  "item.craftingconvenience.chainmail_shovel": "Chainmail Shovel",
+  "item.craftingconvenience.chainmail_hoe": "Chainmail Hoe",
+  "item.craftingconvenience.glue_stick": "Glue Stick"
 }

@@ -3,7 +3,7 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
-    "recipeRetstackSize": 1,
+    "recipeRetstackSize": 2,
     "group": "",
     "unlockingItems": [],
     "cookingBookCategory": "MISC",
@@ -13,37 +13,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Blocks.OBSIDIAN"
+        "value": "Blocks.BROWN_MUSHROOM"
       },
       {
-        "value": "Blocks.OBSIDIAN"
+        "value": "Blocks.BROWN_MUSHROOM"
       },
       {
-        "value": "Blocks.OBSIDIAN"
+        "value": ""
       },
       {
-        "value": "Items.DRAGON_BREATH"
+        "value": "Blocks.BROWN_MUSHROOM"
       },
       {
-        "value": "Items.NETHER_STAR"
+        "value": "Blocks.BROWN_MUSHROOM"
       },
       {
-        "value": "Items.DRAGON_BREATH"
+        "value": ""
       },
       {
-        "value": "Blocks.CRYING_OBSIDIAN"
+        "value": ""
       },
       {
-        "value": "Blocks.CRYING_OBSIDIAN"
+        "value": ""
       },
       {
-        "value": "Blocks.CRYING_OBSIDIAN"
+        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "Blocks.DRAGON_EGG"
+      "value": "Blocks.BROWN_MUSHROOM_BLOCK"
     },
-    "name": "dragon_egg",
+    "name": "brown_mushroom_block",
     "namespace": "mod"
   }
 }

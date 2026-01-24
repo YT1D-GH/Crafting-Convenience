@@ -13,37 +13,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Blocks.OBSIDIAN"
+        "value": "Blocks.SOUL_SAND"
       },
       {
-        "value": "Blocks.OBSIDIAN"
+        "value": "Items.IRON_INGOT"
       },
       {
-        "value": "Blocks.OBSIDIAN"
+        "value": "Blocks.SOUL_SAND"
       },
       {
-        "value": "Items.DRAGON_BREATH"
+        "value": "Items.NETHERITE_INGOT"
       },
       {
-        "value": "Items.NETHER_STAR"
+        "value": "Blocks.SOUL_SAND"
       },
       {
-        "value": "Items.DRAGON_BREATH"
+        "value": "Items.GOLD_INGOT"
       },
       {
-        "value": "Blocks.CRYING_OBSIDIAN"
+        "value": "Blocks.SOUL_SAND"
       },
       {
-        "value": "Blocks.CRYING_OBSIDIAN"
+        "value": "Items.DIAMOND"
       },
       {
-        "value": "Blocks.CRYING_OBSIDIAN"
+        "value": "Blocks.SOUL_SAND"
       }
     ],
     "recipeReturnStack": {
-      "value": "Blocks.DRAGON_EGG"
+      "value": "Items.NETHER_STAR"
     },
-    "name": "dragon_egg",
+    "name": "nether_star",
     "namespace": "mod"
   }
 }

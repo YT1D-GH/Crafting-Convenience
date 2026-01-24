@@ -20,8 +20,15 @@ public class CraftingconvenienceModTabs {
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
-		if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-			tabData.accept(CraftingconvenienceModItems.EMERALD_NUGGET.get());
+		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+			tabData.accept(CraftingconvenienceModItems.CHAINMAIL_PICKAXE.get());
+			tabData.accept(CraftingconvenienceModItems.CHAINMAIL_AXE.get());
+			tabData.accept(CraftingconvenienceModItems.CHAINMAIL_SHOVEL.get());
+			tabData.accept(CraftingconvenienceModItems.CHAINMAIL_HOE.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
+			tabData.accept(CraftingconvenienceModItems.CHAINMAIL_SWORD.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+			tabData.accept(CraftingconvenienceModItems.GLUE_STICK.get());
 		}
 	}
 }

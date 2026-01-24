@@ -13,7 +13,13 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Blocks.OBSIDIAN"
+        "value": ""
+      },
+      {
+        "value": "Items.ENDER_EYE"
+      },
+      {
+        "value": ""
       },
       {
         "value": "Blocks.OBSIDIAN"
@@ -22,28 +28,22 @@
         "value": "Blocks.OBSIDIAN"
       },
       {
-        "value": "Items.DRAGON_BREATH"
+        "value": "Blocks.OBSIDIAN"
       },
       {
-        "value": "Items.NETHER_STAR"
+        "value": "Blocks.END_STONE"
       },
       {
-        "value": "Items.DRAGON_BREATH"
+        "value": "Blocks.END_STONE"
       },
       {
-        "value": "Blocks.CRYING_OBSIDIAN"
-      },
-      {
-        "value": "Blocks.CRYING_OBSIDIAN"
-      },
-      {
-        "value": "Blocks.CRYING_OBSIDIAN"
+        "value": "Blocks.END_STONE"
       }
     ],
     "recipeReturnStack": {
-      "value": "Blocks.DRAGON_EGG"
+      "value": "Blocks.END_PORTAL_FRAME"
     },
-    "name": "dragon_egg",
+    "name": "end_portal_frame",
     "namespace": "mod"
   }
 }

@@ -8,11 +8,11 @@
       "registry_name": "emerald_nugget",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/craftingconvenience/item/EmeraldNuggetItem.java",
-          "src/main/resources/assets/craftingconvenience/models/item/emerald_nugget.json"
+          "src/main/resources/assets/craftingconvenience/models/item/emerald_nugget.json",
+          "src/main/java/net/mcreator/craftingconvenience/item/EmeraldNuggetItem.java"
         ]
       },
-      "path": "~/items"
+      "path": "~/items/Emerald"
     },
     {
       "name": "NameTag",
@@ -48,8 +48,8 @@
       "registry_name": "emerald_nug",
       "metadata": {
         "files": [
-          "src/main/resources/data/craftingconvenience/recipes/emerald_nugget.json",
-          "src/main/resources/data/craftingconvenience/advancements/recipes/emerald_nug.json"
+          "src/main/resources/data/craftingconvenience/advancements/recipes/emerald_nug.json",
+          "src/main/resources/data/craftingconvenience/recipes/emerald_nugget.json"
         ]
       },
       "path": "~/recipes/Emerald"
@@ -88,21 +88,8 @@
       "registry_name": "bread",
       "metadata": {
         "files": [
-          "src/main/resources/data/craftingconvenience/advancements/recipes/bread.json",
-          "src/main/resources/data/minecraft/recipes/bread.json"
-        ]
-      },
-      "path": "~/recipes/Misc"
-    },
-    {
-      "name": "Book",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "book",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/craftingconvenience/recipes/book.json"
+          "src/main/resources/data/minecraft/recipes/bread.json",
+          "src/main/resources/data/craftingconvenience/advancements/recipes/bread.json"
         ]
       },
       "path": "~/recipes/Misc"
@@ -197,6 +184,336 @@
         ]
       },
       "path": "~/recipes/Emerald"
+    },
+    {
+      "name": "ChainmailPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chainmail_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/craftingconvenience/models/item/chainmail_pickaxe.json",
+          "src/main/java/net/mcreator/craftingconvenience/item/ChainmailPickaxeItem.java"
+        ]
+      },
+      "path": "~/items/Chain"
+    },
+    {
+      "name": "ChainmailAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chainmail_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/craftingconvenience/models/item/chainmail_axe.json",
+          "src/main/java/net/mcreator/craftingconvenience/item/ChainmailAxeItem.java"
+        ]
+      },
+      "path": "~/items/Chain"
+    },
+    {
+      "name": "ChainmailSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chainmail_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/craftingconvenience/models/item/chainmail_sword.json",
+          "src/main/java/net/mcreator/craftingconvenience/item/ChainmailSwordItem.java"
+        ]
+      },
+      "path": "~/items/Chain"
+    },
+    {
+      "name": "ChainmailShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chainmail_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/craftingconvenience/item/ChainmailShovelItem.java",
+          "src/main/resources/assets/craftingconvenience/models/item/chainmail_shovel.json"
+        ]
+      },
+      "path": "~/items/Chain"
+    },
+    {
+      "name": "ChainmailHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chainmail_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/craftingconvenience/models/item/chainmail_hoe.json",
+          "src/main/java/net/mcreator/craftingconvenience/item/ChainmailHoeItem.java"
+        ]
+      },
+      "path": "~/items/Chain"
+    },
+    {
+      "name": "ChainmailPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chainmail_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/craftingconvenience/recipes/chainmail_pickaxe_recipe.json",
+          "src/main/resources/data/craftingconvenience/advancements/recipes/chainmail_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/recipes/Chain"
+    },
+    {
+      "name": "ChainmailAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chainmail_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/craftingconvenience/advancements/recipes/chainmail_axe_recipe.json",
+          "src/main/resources/data/craftingconvenience/recipes/chainmail_axe_recipe.json"
+        ]
+      },
+      "path": "~/recipes/Chain"
+    },
+    {
+      "name": "ChainmailSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chainmail_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/craftingconvenience/advancements/recipes/chainmail_sword_recipe.json",
+          "src/main/resources/data/craftingconvenience/recipes/chainmail_sword_recipe.json"
+        ]
+      },
+      "path": "~/recipes/Chain"
+    },
+    {
+      "name": "ChainmailShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chainmail_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/craftingconvenience/advancements/recipes/chainmail_shovel_recipe.json",
+          "src/main/resources/data/craftingconvenience/recipes/chainmail_shovel_recipe.json"
+        ]
+      },
+      "path": "~/recipes/Chain"
+    },
+    {
+      "name": "ChainmailHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chainmail_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/craftingconvenience/recipes/chainmail_hoe_recipe.json",
+          "src/main/resources/data/craftingconvenience/advancements/recipes/chainmail_hoe_recipe.json"
+        ]
+      },
+      "path": "~/recipes/Chain"
+    },
+    {
+      "name": "Paper",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paper",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/craftingconvenience/recipes/paper.json"
+        ]
+      },
+      "path": "~/recipes/Misc"
+    },
+    {
+      "name": "Saddle",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saddle",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/craftingconvenience/recipes/saddle.json"
+        ]
+      },
+      "path": "~/recipes/Misc"
+    },
+    {
+      "name": "RedMushroomBlock",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_mushroom_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/craftingconvenience/recipes/red_mushroom_block.json"
+        ]
+      },
+      "path": "~/recipes/Misc"
+    },
+    {
+      "name": "BrownMushroomBlock",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_mushroom_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/craftingconvenience/recipes/brown_mushroom_block.json"
+        ]
+      },
+      "path": "~/recipes/Misc"
+    },
+    {
+      "name": "GlueStick",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glue_stick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/craftingconvenience/item/GlueStickItem.java",
+          "src/main/resources/assets/craftingconvenience/models/item/glue_stick.json"
+        ]
+      },
+      "path": "~/items/random stuff"
+    },
+    {
+      "name": "GlueStickPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glue_stick_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/craftingconvenience/procedures/GlueStickPlayerFinishesUsingItemProcedure.java"
+        ]
+      },
+      "path": "~/procedures/Gluestick"
+    },
+    {
+      "name": "GluStick",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glu_stick",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/craftingconvenience/recipes/glue_stick.json",
+          "src/main/resources/data/craftingconvenience/advancements/recipes/glu_stick.json"
+        ]
+      },
+      "path": "~/recipes/Misc"
+    },
+    {
+      "name": "Cobweb",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobweb",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/craftingconvenience/recipes/cobweb.json"
+        ]
+      },
+      "path": "~/recipes/Misc"
+    },
+    {
+      "name": "Elytra",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elytra",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/craftingconvenience/recipes/elytra.json"
+        ]
+      },
+      "path": "~/recipes/Misc"
+    },
+    {
+      "name": "Endstone",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endstone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/craftingconvenience/recipes/endstone.json"
+        ]
+      },
+      "path": "~/recipes/Misc"
+    },
+    {
+      "name": "EndPortalFrame",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_portal_frame",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/craftingconvenience/recipes/end_portal_frame.json"
+        ]
+      },
+      "path": "~/recipes/Misc"
+    },
+    {
+      "name": "NetherStar",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_star",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/craftingconvenience/recipes/nether_star.json"
+        ]
+      },
+      "path": "~/recipes/Misc"
+    },
+    {
+      "name": "Sponge",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sponge",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/craftingconvenience/recipes/sponge.json"
+        ]
+      },
+      "path": "~/recipes/Misc"
+    },
+    {
+      "name": "WetSponge",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wet_sponge",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/craftingconvenience/recipes/wet_sponge.json"
+        ]
+      },
+      "path": "~/recipes/Misc"
     }
   ],
   "variable_elements": [],
@@ -212,17 +529,39 @@
       "Items.IRON_NUGGET",
       "Items.GOLD_NUGGET",
       "Items.STRING"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:ChainmailPickaxe"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:ChainmailAxe"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:ChainmailSword"
+    ],
+    "ITEMS:minecraft:shovels": [
+      "~CUSTOM:ChainmailShovel"
+    ],
+    "ITEMS:minecraft:hoes": [
+      "~CUSTOM:ChainmailHoe"
     ]
   },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "item.craftingconvenience.emerald_nugget": "Emerald Nugget"
+      "item.craftingconvenience.emerald_nugget": "Emerald Nugget",
+      "item.craftingconvenience.chainmail_pickaxe": "Chainmail Pickaxe",
+      "item.craftingconvenience.chainmail_axe": "Chainmail Axe",
+      "item.craftingconvenience.chainmail_sword": "Chainmail Sword",
+      "item.craftingconvenience.chainmail_shovel": "Chainmail Shovel",
+      "item.craftingconvenience.chainmail_hoe": "Chainmail Hoe",
+      "item.craftingconvenience.glue_stick": "Glue Stick"
     }
   },
   "metadata": {
     "files": [
       "src/main/java/net/mcreator/craftingconvenience/init/CraftingconvenienceModItems.java",
+      "src/main/java/net/mcreator/craftingconvenience/init/CraftingconvenienceModTabs.java",
       "src/main/java/net/mcreator/craftingconvenience/CraftingconvenienceMod.java",
       "src/main/resources/META-INF/mods.toml",
       "src/main/resources/pack.mcmeta"
@@ -233,7 +572,20 @@
     "children": [
       {
         "name": "items",
-        "children": []
+        "children": [
+          {
+            "name": "Emerald",
+            "children": []
+          },
+          {
+            "name": "Chain",
+            "children": []
+          },
+          {
+            "name": "random stuff",
+            "children": []
+          }
+        ]
       },
       {
         "name": "recipes",
@@ -270,6 +622,15 @@
                 "children": []
               }
             ]
+          }
+        ]
+      },
+      {
+        "name": "procedures",
+        "children": [
+          {
+            "name": "Gluestick",
+            "children": []
           }
         ]
       }

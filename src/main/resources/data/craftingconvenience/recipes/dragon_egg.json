@@ -4,7 +4,7 @@
   "pattern": [
     "aaa",
     "bcb",
-    "aaa"
+    "ddd"
   ],
   "key": {
     "a": {
@@ -15,6 +15,9 @@
     },
     "c": {
       "item": "minecraft:nether_star"
+    },
+    "d": {
+      "item": "minecraft:crying_obsidian"
     }
   },
   "result": {

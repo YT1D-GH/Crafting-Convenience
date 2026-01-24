@@ -13,37 +13,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Blocks.OBSIDIAN"
-      },
-      {
-        "value": "Blocks.OBSIDIAN"
-      },
-      {
-        "value": "Blocks.OBSIDIAN"
-      },
-      {
-        "value": "Items.DRAGON_BREATH"
+        "value": "Items.PHANTOM_MEMBRANE"
       },
       {
         "value": "Items.NETHER_STAR"
       },
       {
+        "value": "Items.PHANTOM_MEMBRANE"
+      },
+      {
+        "value": "Items.PHANTOM_MEMBRANE"
+      },
+      {
         "value": "Items.DRAGON_BREATH"
       },
       {
-        "value": "Blocks.CRYING_OBSIDIAN"
+        "value": "Items.PHANTOM_MEMBRANE"
       },
       {
-        "value": "Blocks.CRYING_OBSIDIAN"
+        "value": "Items.FEATHER"
       },
       {
-        "value": "Blocks.CRYING_OBSIDIAN"
+        "value": ""
+      },
+      {
+        "value": "Items.FEATHER"
       }
     ],
     "recipeReturnStack": {
-      "value": "Blocks.DRAGON_EGG"
+      "value": "Items.ELYTRA"
     },
-    "name": "dragon_egg",
+    "name": "elytra",
     "namespace": "mod"
   }
 }

@@ -4,8 +4,12 @@
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 1,
-    "group": "",
-    "unlockingItems": [],
+    "group": "gluestick",
+    "unlockingItems": [
+      {
+        "value": "Items.SLIME_BALL"
+      }
+    ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
@@ -13,37 +17,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Blocks.OBSIDIAN"
+        "value": ""
       },
       {
-        "value": "Blocks.OBSIDIAN"
+        "value": ""
       },
       {
-        "value": "Blocks.OBSIDIAN"
+        "value": ""
       },
       {
-        "value": "Items.DRAGON_BREATH"
+        "value": ""
       },
       {
-        "value": "Items.NETHER_STAR"
+        "value": "Items.SLIME_BALL"
       },
       {
-        "value": "Items.DRAGON_BREATH"
+        "value": ""
       },
       {
-        "value": "Blocks.CRYING_OBSIDIAN"
+        "value": ""
       },
       {
-        "value": "Blocks.CRYING_OBSIDIAN"
+        "value": "Items.FLOWER_POT"
       },
       {
-        "value": "Blocks.CRYING_OBSIDIAN"
+        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "Blocks.DRAGON_EGG"
+      "value": "CUSTOM:GlueStick"
     },
-    "name": "dragon_egg",
+    "name": "glue_stick",
     "namespace": "mod"
   }
 }

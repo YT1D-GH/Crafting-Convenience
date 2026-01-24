@@ -3,8 +3,8 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
-    "recipeRetstackSize": 1,
-    "group": "",
+    "recipeRetstackSize": 3,
+    "group": "paper",
     "unlockingItems": [],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -13,37 +13,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Blocks.OBSIDIAN"
+        "value": ""
       },
       {
-        "value": "Blocks.OBSIDIAN"
+        "value": ""
       },
       {
-        "value": "Blocks.OBSIDIAN"
+        "value": ""
       },
       {
-        "value": "Items.DRAGON_BREATH"
+        "value": "Blocks.BAMBOO"
       },
       {
-        "value": "Items.NETHER_STAR"
+        "value": "Blocks.BAMBOO"
       },
       {
-        "value": "Items.DRAGON_BREATH"
+        "value": "Blocks.BAMBOO"
       },
       {
-        "value": "Blocks.CRYING_OBSIDIAN"
+        "value": ""
       },
       {
-        "value": "Blocks.CRYING_OBSIDIAN"
+        "value": ""
       },
       {
-        "value": "Blocks.CRYING_OBSIDIAN"
+        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "Blocks.DRAGON_EGG"
+      "value": "Items.PAPER"
     },
-    "name": "dragon_egg",
+    "name": "paper",
     "namespace": "mod"
   }
 }

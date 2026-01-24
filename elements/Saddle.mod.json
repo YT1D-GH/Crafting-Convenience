@@ -3,32 +3,32 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
-    "recipeRetstackSize": 3,
-    "group": "book",
+    "recipeRetstackSize": 1,
+    "group": "saddle",
     "unlockingItems": [],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
-    "recipeShapeless": true,
+    "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "Items.LEATHER"
+      },
+      {
+        "value": "Items.LEATHER"
+      },
+      {
+        "value": "Items.LEATHER"
+      },
+      {
+        "value": "TAG:forge:nuggets"
       },
       {
         "value": ""
       },
       {
-        "value": ""
-      },
-      {
-        "value": "Blocks.BAMBOO"
-      },
-      {
-        "value": "Blocks.BAMBOO"
-      },
-      {
-        "value": "Blocks.BAMBOO"
+        "value": "TAG:forge:nuggets"
       },
       {
         "value": ""
@@ -41,9 +41,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "Items.PAPER"
+      "value": "Items.SADDLE"
     },
-    "name": "book",
+    "name": "saddle",
     "namespace": "mod"
   }
 }

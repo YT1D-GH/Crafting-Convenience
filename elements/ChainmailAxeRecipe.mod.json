@@ -5,45 +5,49 @@
     "recipeType": "Crafting",
     "recipeRetstackSize": 1,
     "group": "",
-    "unlockingItems": [],
+    "unlockingItems": [
+      {
+        "value": "Blocks.CHAIN"
+      }
+    ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "craftingBookCategory": "MISC",
+    "craftingBookCategory": "EQUIPMENT",
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Blocks.OBSIDIAN"
+        "value": "Blocks.CHAIN"
       },
       {
-        "value": "Blocks.OBSIDIAN"
+        "value": "Blocks.CHAIN"
       },
       {
-        "value": "Blocks.OBSIDIAN"
+        "value": ""
       },
       {
-        "value": "Items.DRAGON_BREATH"
+        "value": "Blocks.CHAIN"
       },
       {
-        "value": "Items.NETHER_STAR"
+        "value": "Items.STICK"
       },
       {
-        "value": "Items.DRAGON_BREATH"
+        "value": ""
       },
       {
-        "value": "Blocks.CRYING_OBSIDIAN"
+        "value": ""
       },
       {
-        "value": "Blocks.CRYING_OBSIDIAN"
+        "value": "Items.STICK"
       },
       {
-        "value": "Blocks.CRYING_OBSIDIAN"
+        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "Blocks.DRAGON_EGG"
+      "value": "CUSTOM:ChainmailAxe"
     },
-    "name": "dragon_egg",
+    "name": "chainmail_axe_recipe",
     "namespace": "mod"
   }
 }

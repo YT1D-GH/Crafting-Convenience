@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "gluestick",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:slime_ball"
+    },
+    "b": {
+      "item": "minecraft:flower_pot"
+    }
+  },
+  "result": {
+    "item": "craftingconvenience:glue_stick",
+    "count": 1
+  }
+}

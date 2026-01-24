@@ -3,7 +3,7 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
-    "recipeRetstackSize": 1,
+    "recipeRetstackSize": 4,
     "group": "",
     "unlockingItems": [],
     "cookingBookCategory": "MISC",
@@ -13,37 +13,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Blocks.OBSIDIAN"
+        "value": "Items.STRING"
       },
       {
-        "value": "Blocks.OBSIDIAN"
+        "value": "Blocks.WOOL#4"
       },
       {
-        "value": "Blocks.OBSIDIAN"
+        "value": "Items.STRING"
       },
       {
-        "value": "Items.DRAGON_BREATH"
+        "value": "Blocks.WOOL#4"
       },
       {
-        "value": "Items.NETHER_STAR"
+        "value": ""
       },
       {
-        "value": "Items.DRAGON_BREATH"
+        "value": "Blocks.WOOL#4"
       },
       {
-        "value": "Blocks.CRYING_OBSIDIAN"
+        "value": "Items.STRING"
       },
       {
-        "value": "Blocks.CRYING_OBSIDIAN"
+        "value": "Blocks.WOOL#4"
       },
       {
-        "value": "Blocks.CRYING_OBSIDIAN"
+        "value": "Items.STRING"
       }
     ],
     "recipeReturnStack": {
-      "value": "Blocks.DRAGON_EGG"
+      "value": "Blocks.SPONGE#0"
     },
-    "name": "dragon_egg",
+    "name": "sponge",
     "namespace": "mod"
   }
 }

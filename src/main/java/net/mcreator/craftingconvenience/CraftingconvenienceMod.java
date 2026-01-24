@@ -17,6 +17,7 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.craftingconvenience.init.CraftingconvenienceModTabs;
 import net.mcreator.craftingconvenience.init.CraftingconvenienceModItems;
 
 import java.util.function.Supplier;
@@ -39,6 +40,7 @@ public class CraftingconvenienceMod {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = context.getModEventBus();
 		CraftingconvenienceModItems.REGISTRY.register(bus);
+		CraftingconvenienceModTabs.REGISTRY.register(bus);
 		// Start of user code block mod init
 		// End of user code block mod init
 	}
