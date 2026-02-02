@@ -514,6 +514,19 @@
         ]
       },
       "path": "~/recipes/Misc"
+    },
+    {
+      "name": "Beacon",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beacon",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/craftingconvenience/recipes/beacon.json"
+        ]
+      },
+      "path": "~/recipes/Misc"
     }
   ],
   "variable_elements": [],

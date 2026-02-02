@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "cdc"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:glass"
+    },
+    "b": {
+      "item": "minecraft:diamond_block"
+    },
+    "c": {
+      "item": "minecraft:obsidian"
+    },
+    "d": {
+      "item": "minecraft:crying_obsidian"
+    }
+  },
+  "result": {
+    "item": "minecraft:beacon",
+    "count": 1
+  }
+}
