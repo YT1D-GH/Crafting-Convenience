@@ -1,0 +1,29 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "Items.LEATHER"
+    },
+    "smithingInputAdditionStack": {
+      "value": "Items.SLIME_BALL"
+    },
+    "smithingInputTemplateStack": {
+      "value": "Blocks.LOG"
+    },
+    "smithingReturnStack": {
+      "value": "Items.ROTTEN_FLESH"
+    },
+    "name": "rotten_flesh",
+    "namespace": "mod"
+  }
+}

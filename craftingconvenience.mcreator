@@ -527,6 +527,45 @@
         ]
       },
       "path": "~/recipes/Misc"
+    },
+    {
+      "name": "Spawner",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawner",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/craftingconvenience/recipes/spawner.json"
+        ]
+      },
+      "path": "~/recipes/Misc"
+    },
+    {
+      "name": "ZombieSpawnEgg",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zombie_spawn_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/craftingconvenience/recipes/zombie_spawn_egg.json"
+        ]
+      },
+      "path": "~/recipes/Misc"
+    },
+    {
+      "name": "RottenFlesh",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rotten_flesh",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/craftingconvenience/recipes/rotten_flesh.json"
+        ]
+      },
+      "path": "~/recipes/Misc"
     }
   ],
   "variable_elements": [],
@@ -652,7 +691,7 @@
   "workspaceSettings": {
     "modid": "craftingconvenience",
     "modName": "CraftingConvenience",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "The mod to make crafting convenient",
     "author": "MCreator",
     "websiteURL": "https://mcreator.net",

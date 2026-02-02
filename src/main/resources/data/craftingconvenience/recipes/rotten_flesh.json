@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "tag": "minecraft:logs"
+  },
+  "base": {
+    "item": "minecraft:leather"
+  },
+  "addition": {
+    "item": "minecraft:slime_ball"
+  },
+  "result": {
+    "item": "minecraft:rotten_flesh"
+  }
+}
