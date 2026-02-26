@@ -566,6 +566,32 @@
         ]
       },
       "path": "~/recipes/Misc"
+    },
+    {
+      "name": "Bell",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bell",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/craftingconvenience/recipes/bell.json"
+        ]
+      },
+      "path": "~/recipes/Misc"
+    },
+    {
+      "name": "Quartz",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quartz",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/craftingconvenience/recipes/quartz.json"
+        ]
+      },
+      "path": "~/recipes/Misc"
     }
   ],
   "variable_elements": [],
